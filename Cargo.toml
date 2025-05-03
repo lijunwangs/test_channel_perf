@@ -1,0 +1,9 @@
+[package]
+name = "channel_benchmark"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossbeam = "0.8"
+async-channel = "1.9"
+tokio = { version = "1", features = ["full"] }
